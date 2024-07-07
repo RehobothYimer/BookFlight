@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>special coffee</title>
+    <style>
+        h1{
+            text-align: center;
+            color: palevioletred;
+            margin: 0 auto;
+            font-size: 30px;
+        }
+        h2{
+            text-align: center;
+        border: 1px solid purple;
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 50px;
+        }
+.tree{
+    text-align: center;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+ max-width: 70%px;
+    padding: 10PX 10px;
+    border-radius: 12px;
+}
+button {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0 0 0);
+background-color:#ffff;
+margin: 0 auto;
+padding: 15px;
+border: none;
+
+}
+button:hover{
+    transition: all 200ms ease-in;
+    cursor: pointer;
+    opacity: 0.5;
+    color:brown;
+
+
+}
+.brown{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+
+}
+.brown:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px;
+}
+div{
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+    </style>
+</head>
+<div class="container"> 
+   
+<h2>visit africa </h2>
+<h1> east part of africa </h1><br>
+<hr>
+<img src="https://writingmuscle.files.wordpress.com/2013/08/monkey-2.jpg">
+<p class="tree">
+</hr><hr>
+    ​African primates range in size from the smallest prosimian in the world,
+to medium-sized monkeys, to the largest monkeys and apes in the world.
+African monkeys include baboons, colobus monkeys, drills, geladas, guenons, mandrills,
+one macaque species, mangabeys, and patas monkeys. 
+.<br><br>
+ <img src="https://insidearabia.com/wp-content/uploads/2020/03/The-Blue-Nile-is-known-as-Ethiopia%E2%80%99s-River-of-Magic-and-Mystery.-1280x600.jpg"><br>
+ <p>The Nile River, considered the longest river in the world, is approximately 4,258 miles (6,853 kilometers) long, 
+ but its exact length is a matter of debate. Flowing northward through the tropical climate of eastern Africa and into the Mediterranean Sea, 
+ the river passes through 11 countries: Tanzania, Uganda, Rwanda, Burundi, 
+ the Democratic Republic of the Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan and Egypt.</p><br><br>
+
+<a href="https://www.neprimateconservancy.org/african-monkeys-at-a-glance.html"target="_blank" class="brown">
+   
+find some information
+</a>
+</p>
+<br>
+<button class="yes">
+👉 book for flight
+</button>
+<p> 
+coded by 
+<a href="https://github.com/RehobothYimer"><br>
+Rehoboth Aragaw
+</a>
+</p>
+</div>
+<script>
+    function yes(){
+        let name=prompt("what is your name");
+        let rate=prompt("which place would you like to visit?");
+        let emoji=prompt("what is your favourite emoji");
+
+        alert("thank you! " +
+         name + 
+         "hope to see you there, " + emoji);
+
+    }
+
+    yesButton=document.querySelector(".yes");
+    yesButton.addEventListener("click", yes);
+</script>
+
+
+
+</body>
+</html>
